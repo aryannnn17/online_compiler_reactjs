@@ -6,12 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "react-scripts build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
@@ -23,7 +21,7 @@
     "framer-motion": "^11.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
